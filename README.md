@@ -2,15 +2,16 @@
 
 ## Installation and Running
 
-1. Install dependencies:
-   npm install
-   
+1. npm init -y
+2. npm install --save-dev typescript @types/node
 
-2. Compile TypeScript:
+3. Install dependencies:
+   npm install
+
+4. Compile TypeScript:
    npx tsc
    
-
-3. Run the project:
+5. Run the project:
    node dist/index.js
    
 
@@ -29,5 +30,5 @@
 
 ## In-Progress:
 
-- Working on magage tasksStatus
+- Working on manage tasksStatus
 
